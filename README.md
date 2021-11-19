@@ -62,4 +62,4 @@ With the [Twilio CLI](https://www.twilio.com/docs/twilio-cli/quickstart):
 twilio serverless:deploy
 ```
 
-Make sure to update your incoming voice URL to your newly deployed Function URL.
+Make sure to update your taskrouter event callback webhook URL to your newly deployed Function URL.
