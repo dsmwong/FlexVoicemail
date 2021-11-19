@@ -14,7 +14,7 @@ exports.handler = function(context, event, callback) {
   let taskAttributes = JSON.parse(event.TaskAttributes);
   let callSid = taskAttributes.call_sid;
 
-  let domain = context.DOMAIN_NAME !== 'localhost:3000' ? context.DOMAIN_NAME : 'dawong.au.ngrok.io'
+  let domain = context.DOMAIN_NAME !== 'localhost:3000' ? context.DOMAIN_NAME : '<your-ngrok-code>.ngrok.io'
 
   // switch on the event type
   switch(event.EventType) {

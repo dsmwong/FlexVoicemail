@@ -1,5 +1,5 @@
 exports.handler = function(context, event, callback) {
-  let domain = context.DOMAIN_NAME !== 'localhost:3000' ? context.DOMAIN_NAME : 'dawong.au.ngrok.io'
+  let domain = context.DOMAIN_NAME !== 'localhost:3000' ? context.DOMAIN_NAME : '<your-ngrok-code>.ngrok.io'
   let taskSid = event.taskSid;
   let actionUrl = `https://${domain}/voicemail-complete?taskSid=${taskSid}`;
     
