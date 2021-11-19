@@ -36,6 +36,7 @@ exports.handler = function(context, event, callback) {
           //     response.setStatusCode(500);
           //     return callback(err, response)
           // });
+          return callback(null, response)
       break;
       case 'task-queue.entered':
           console.log(`Task ID: ${event.TaskSid}  Call SID: ${taskAttributes.call_sid} TaskQueueName: ${event.TaskQueueName}`)
