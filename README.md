@@ -13,6 +13,8 @@ The best way to use the Function is through the Twilio CLI as described below. I
 
 ### Environment variables
 
+Copy `.env.example` to `.env`
+
 To deploy this project with the Functions API, this Function expects the following environment variables set in your `.env` file:
 
 | Variable          | Meaning                                                                                                        | Required |
